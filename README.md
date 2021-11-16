@@ -37,7 +37,8 @@ _Siendo un front sencillo, se ha hecho responsive con la librería de Bootstrap,
 ![image](https://user-images.githubusercontent.com/94412083/142031994-32ce1212-946f-40e5-8506-51223414bd14.png)
 
 
-Toos los apartados permiten la creación de elemento, no se ha implementado Actualización, pero sí Eliminación de Incidencias y Tareas
+-Todos los apartados permiten la creación de elemento, no se ha implementado Actualización, pero sí Eliminación de Incidencias y Tareas
+
 **Breve ejemplo  de la vista que muestra las empresas y formulario de creación**
  ![image](https://user-images.githubusercontent.com/94412083/142032266-f37544b2-fa74-496f-b4ab-ef1f78aa46b2.png)
  ![image](https://user-images.githubusercontent.com/94412083/142032294-ccf1b201-1a3e-4336-83fa-44725c8a8377.png)
