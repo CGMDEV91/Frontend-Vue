@@ -65,7 +65,9 @@ _Siendo un front sencillo, se ha hecho responsive con la librería de Bootstrap,
 
 ![image](https://user-images.githubusercontent.com/94412083/142037266-7c22867f-6a04-45b8-8d4d-2c75cc198136.png)
 
-- He usado el diseñador de Diagramas de SqlManagement:
+- He usado el diseñador de Diagramas de SQL:
+
+
 ![image](https://user-images.githubusercontent.com/94412083/142038092-34361ff6-2267-4316-aef7-7efa6e1741a3.png)
 
 
