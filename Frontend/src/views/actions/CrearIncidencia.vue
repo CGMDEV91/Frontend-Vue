@@ -41,6 +41,11 @@
                 <button class="btn btn-primary" @click="CrearIncidencia">Crear</button>
             </form>
         </div>
+        <div class="row justify-content-center mt-2">
+          <div v-if="visible" class="alert alert-success col-md-6" role="alert">
+              Incidencia Creada!
+          </div>
+        </div>
     </div>
 </template>
 
@@ -64,7 +69,8 @@ export default {
       completada: false,
       incidencia: {},
       url: "/Incidencia/",
-      empleados: {}
+      empleados: {},
+      visible: false
 
     }
   },
@@ -98,7 +104,8 @@ export default {
       axios.post(this.$APIURL + url ,this.incidencia).
       then((response)=>{
         console.log(response.data);
-        this.$router.push('/incidencias')
+        this.visible = true;
+        setTimeout(() => this.$router.push('/incidencias'), 2000);
       })
       .catch(error => {
         console.log(error.response);

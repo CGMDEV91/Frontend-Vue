@@ -8,13 +8,11 @@
             <table class="table table-striped">
               <thead>
                 <tr>
-                  <th scope="col">#</th>
                   <th scope="col">Nombre</th>
                 </tr>
               </thead>
               <tbody>
                 <tr v-for="(empresa) in empresas" :key="empresa.Id">
-                  <th scope="row">{{empresa.Id}}</th>
                   <td>{{empresa.Nombre}}</td>
                 </tr>
               </tbody>

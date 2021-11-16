@@ -26,7 +26,7 @@ Vue.mixin({
       return tarea;
     },
     editar: function(){
-      alert("Editar")
+      alert("Editar ( Por hacer )")
     }
   },
 });

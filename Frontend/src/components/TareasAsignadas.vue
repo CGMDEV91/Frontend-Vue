@@ -7,7 +7,6 @@
             <table class="table table-striped">
             <thead>
                 <tr>
-                <th scope="col">#</th>
                 <th scope="col">Responsable</th>
                 <th scope="col">Descripcion</th>
                 <th scope="col">Estado</th>
@@ -17,7 +16,6 @@
             </thead>
             <tbody>
                 <tr v-for="(dato) in datos" :key="dato.Id">
-                <th scope="row">{{dato.id}}</th>
                 <td>{{dato.Empleado}}</td>
                 <td>{{dato.Descripcion}}</td>
                 <td>{{estadoTarea(dato.Completada)}}</td>

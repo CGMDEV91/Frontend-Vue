@@ -13,6 +13,11 @@
                 <button @click="CrearEmpresa" class="btn btn-primary">Crear</button>
             </form>
         </div>
+        <div class="row justify-content-center mt-2">
+          <div v-if="visible" class="alert alert-success col-md-6" role="alert">
+              Empresa Creada!
+          </div>
+        </div>
     </div>
 </template>
 
@@ -27,7 +32,8 @@ export default {
   data: function(){
       return {
           nombre: '',
-          url: '/Empresa/'
+          url: '/Empresa/',
+          visible: false
       }
   },
    methods: {
@@ -40,7 +46,8 @@ export default {
       }).
       then((response)=>{
         console.log(response.data);
-        this.$router.push('/empresas')
+        this.visible = true;
+        setTimeout(() => this.$router.push('/empresas'), 2000);
       })
       .catch(error => {
         console.log(error.response);

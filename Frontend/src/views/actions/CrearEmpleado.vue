@@ -20,6 +20,11 @@
                 <button class="btn btn-primary" @click="CrearEmpleado">Crear</button>
             </form>
         </div>
+        <div class="row justify-content-center mt-2">
+          <div v-if="visible" class="alert alert-success col-md-6" role="alert">
+              Empleado Creado!
+          </div>
+        </div>
     </div>
 </template>
 
@@ -38,7 +43,8 @@ export default {
           nombre: '',
           empresa: '',
           url: '/Empleado/',
-          empresas: {}
+          empresas: {},
+          visible: false
       }
   },
    methods: {
@@ -46,7 +52,6 @@ export default {
       axios.get(this.$APIURL + url)
       .then(response => {
         this.empresas = response.data;
-        console.log(this.empresas);
       })
       .catch(e => {
         this.error = e;
@@ -63,7 +68,8 @@ export default {
       }).
       then((response)=>{
         console.log(response.data);
-        this.$router.push('/empleados')
+        this.visible = true;
+        setTimeout(() => this.$router.push('/empleados'), 2000);
       })
       .catch(error => {
         console.log(error.response);
