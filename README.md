@@ -31,4 +31,29 @@ Una vez Arrancado,nos situamos  dentro del proyecto de Fontend en Vue.js y desde
 Seguidamente podremos arrancar el proyecto usando: **npm run serve**
 Tras cargar todos los módulos de node será accesible desde: **http://localhost:8080/**
 
+_Siendo un front sencillo, se ha hecho responsive con la librería de Bootstrap, sé que usais Material, pero por razones de tiempo, obvias, he optado por usar lo que ya conocía_
+
+*Al arrancar el proyecto vemos:
+![image](https://user-images.githubusercontent.com/94412083/142031994-32ce1212-946f-40e5-8506-51223414bd14.png)
+
+Toos los apartados permiten la creación de elemento, no se ha implementado Actualización, pero sí Eliminación de Incidencias y Tareas
+* Breve ejemplo  de la vista que muestra las empresas y formulario de creación:
+ ![image](https://user-images.githubusercontent.com/94412083/142032266-f37544b2-fa74-496f-b4ab-ef1f78aa46b2.png)
+ ![image](https://user-images.githubusercontent.com/94412083/142032294-ccf1b201-1a3e-4336-83fa-44725c8a8377.png)
+
+* Vistas de Empleados:
+![image](https://user-images.githubusercontent.com/94412083/142032400-ee0360f5-8a52-4d36-b4d1-aa890808751d.png)
+![image](https://user-images.githubusercontent.com/94412083/142032442-e80674fa-f003-460a-b28f-866309350836.png)
+
+* Vistas de Incidencias ( acceso a detalle de cada incidencia /tarea )
+ ![image](https://user-images.githubusercontent.com/94412083/142032612-86d27604-8dae-4800-8ad5-b7e14c6b9ee7.png)
+ ![image](https://user-images.githubusercontent.com/94412083/142032942-369e34ac-7472-439a-92b4-fc120137644c.png)
+ ![image](https://user-images.githubusercontent.com/94412083/142033358-69b95623-229d-429b-b1ce-d1c152c0f127.png)
+
+**Se han creado alertas con redirecciones avisando de cada inserción o eliminación de elementos**
+
+
+
+
+
 
