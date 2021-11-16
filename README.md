@@ -73,7 +73,7 @@ _Siendo un front sencillo, se ha hecho responsive con la librería de Bootstrap,
 ![image](https://user-images.githubusercontent.com/94412083/142076980-71ee257c-4ef6-459e-af6e-b954e6078c4f.png)
 
 
-- No he tenido tiempo de implementar una función que obtenga un Excel de los datos deseados, pero con el material de referencia de Microsoft se podria conseguir facilmente:
+- No he tenido tiempo de implementar una función que obtenga un Excel de los datos de la primera select, pero con el material de referencia de Microsoft se podria conseguir facilmente:
 
 **https://docs.microsoft.com/es-es/previous-versions/office/troubleshoot/office-developer/automate-excel-using-visual-c-fill-data**
 
