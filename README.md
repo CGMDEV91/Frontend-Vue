@@ -63,7 +63,7 @@ _Siendo un front sencillo, se ha hecho responsive con la librería de Bootstrap,
 
 ## 1.3	BASE DE DATOS
 
-![image](https://user-images.githubusercontent.com/94412083/142037177-ee5fb0e4-fcd0-43bf-af1d-bf3dca907350.png)
+![image](https://user-images.githubusercontent.com/94412083/142037266-7c22867f-6a04-45b8-8d4d-2c75cc198136.png)
 
 - No he tenido tiempo de implementar una función que obtenga un Excel de los datos deseados, pero con el material de referencia de Microsoft se podria conseguir facilmente:
 
