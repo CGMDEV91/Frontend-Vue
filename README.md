@@ -68,7 +68,7 @@ _Siendo un front sencillo, se ha hecho responsive con la librería de Bootstrap,
 - He usado el diseñador de Diagramas de SQL:
 
 
-![image](https://user-images.githubusercontent.com/94412083/142038307-95fb5154-6d5d-414e-a8fa-366567e3acbc.png)
+![image](https://user-images.githubusercontent.com/94412083/142076980-71ee257c-4ef6-459e-af6e-b954e6078c4f.png)
 
 
 - No he tenido tiempo de implementar una función que obtenga un Excel de los datos deseados, pero con el material de referencia de Microsoft se podria conseguir facilmente:
