@@ -7,7 +7,7 @@
                     <label for="empleado" class="col-4 col-form-label">Empleado</label>
                     <div class="col-6">
                         <select id="empleado" v-model="empleado" class="form-control">
-                        <option v-for="(empleado) in empleados" :value="empleado" :key="empleado.Id">{{empleado.Nombre}}</option>
+                        <option v-for="(empleado) in empleados" :value="empleado.Id" :key="empleado.Id">{{empleado.Nombre}}</option>
                     </select> 
                     </div>
                 </div>
@@ -88,7 +88,7 @@ export default {
         "Descripcion": this.descripcion,
         "Completada": this.completada,
         "Fecha": this.fecha,
-        "EmpleadoId": 2
+        "EmpleadoId": this.empleado
       }
       this.create(this.url);
     },

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carlos\\Desktop\\Nueva carpeta (2)\\PruebaTecnicaGoalSystems\\Backend-Api-BBDD-Docker\\GestionIncidencias\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\Carlos\\Desktop\\PruebaTecnica-GS\\PruebaTecnicaGoalSystems\\Backend-Api-BBDD-Docker\\GestionIncidencias\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carlos\\Desktop\\Nueva carpeta (2)\\PruebaTecnicaGoalSystems\\Backend-Api-BBDD-Docker\\GestionIncidencias\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\Carlos\\Desktop\\PruebaTecnica-GS\\PruebaTecnicaGoalSystems\\Backend-Api-BBDD-Docker\\GestionIncidencias\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\Nueva carpeta (2)\\PruebaTecnicaGoalSystems\\Backend-Api-BBDD-Docker\\GestionIncidencias\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\PruebaTecnica-GS\\PruebaTecnicaGoalSystems\\Backend-Api-BBDD-Docker\\GestionIncidencias\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\Carlos\\Desktop\\Nueva carpeta (2)\\PruebaTecnicaGoalSystems\\Backend-Api-BBDD-Docker\\GestionIncidencias\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\Carlos\\Desktop\\PruebaTecnica-GS\\PruebaTecnicaGoalSystems\\Backend-Api-BBDD-Docker\\GestionIncidencias\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos\\Desktop\\Nueva carpeta (2)\\PruebaTecnicaGoalSystems\\Backend-Api-BBDD-Docker\\GestionIncidencias\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Carlos\\Desktop\\PruebaTecnica-GS\\PruebaTecnicaGoalSystems\\Backend-Api-BBDD-Docker\\GestionIncidencias\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
