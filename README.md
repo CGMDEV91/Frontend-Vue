@@ -21,7 +21,7 @@ _Es importante recordar que sin una base de datos en un docker y cambiando la ca
 Una vez clonado el repositorio, accedemos a la carpeta que contiene el proyecto de Visual Studio para poner la API en funcionamiento.
 Como inicio arrancará con el endpoint: **http://localhost:32110/api/Empleado**
 
-![image](https://user-images.githubusercontent.com/94412083/142030732-53e4deab-088e-4860-8456-3afea430df2b.png)
+![image](https://user-images.githubusercontent.com/94412083/142076632-2532f89f-d2d0-4ef9-86a2-dde66fa503de.png)
 
 **En caso de tener datos y una base de datos con conexión se mostraría como se observa en la foto anterior la respuesta incial con los datos de los Empleados de la base de datos**
 
