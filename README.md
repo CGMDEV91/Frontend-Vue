@@ -75,6 +75,9 @@ AND in.Fecha BETWEEN '01-05-2021' AND '31-05-2021';
 
 **https://docs.microsoft.com/es-es/previous-versions/office/troubleshoot/office-developer/automate-excel-using-visual-c-fill-data**
 
+## 1.4	 SEGURIDAD
+- Me hubiera gustado tener tiempo de implementar también varios tipos de seguridad, en primer lugar, habria usado la libreria de asp.Net **Identity** para habilitar el acceso mediante roles.
+- El siguiente paso habria sido Implementar la seguridad para los endpoints mediante JWT (Java Web Token) generando un toque que fiese verificado en el backend habilitando el envio y recepción de datos.
 
 
 
