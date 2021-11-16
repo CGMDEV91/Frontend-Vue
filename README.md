@@ -27,7 +27,7 @@ Como inicio arrancará con el endpoint: **http://localhost:32110/api/Empleado**
 
 # Iniciando el Cliente 🛠️
 
-Una vez Arrancado,nos situamos  dentro del proyecto de Fontend en Vue.js y desde consola ejecutaremos **npm intall** para descargar todos los paquetes de node necesarios.
+Una vez Arrancado,nos situamos  dentro del proyecto de Fontend en Vue.js y desde consola ejecutaremos **npm install** para descargar todos los paquetes de node necesarios.
 Seguidamente podremos arrancar el proyecto usando: **npm run serve**
 Tras cargar todos los módulos de node será accesible desde: **http://localhost:8080/**
 
@@ -77,7 +77,7 @@ _Siendo un front sencillo, se ha hecho responsive con la librería de Bootstrap,
 
 ## 1.4	 SEGURIDAD
 - Me hubiera gustado tener tiempo de implementar también varios tipos de seguridad, en primer lugar, habria usado la libreria de asp.Net **Identity** para habilitar el acceso mediante roles.
-- El siguiente paso habria sido Implementar la seguridad para los endpoints mediante JWT (Java Web Token) generando un toque que fiese verificado en el backend habilitando el envio y recepción de datos.
+- El siguiente paso habria sido Implementar la seguridad para los endpoints mediante JWT (Java Web Token) generando un token que fuese verificado en el backend habilitando el envio y recepción de datos.
 
 
 
