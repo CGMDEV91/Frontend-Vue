@@ -63,13 +63,7 @@ _Siendo un front sencillo, se ha hecho responsive con la librería de Bootstrap,
 
 ## 1.3	BASE DE DATOS
 
-SELECT emp.Nombre,in.Tipo,in.Fecha,in.idEmpleado as Responsable, in.Estado
-FROM EMPRESA emp,
-INCIDENCIAS in,
-EMPLEADO e
-WHERE in.Id = emp.Id
-AND in.idEmpleado = e.Id
-AND in.Fecha BETWEEN '01-05-2021' AND '31-05-2021';
+![image](https://user-images.githubusercontent.com/94412083/142037177-ee5fb0e4-fcd0-43bf-af1d-bf3dca907350.png)
 
 - No he tenido tiempo de implementar una función que obtenga un Excel de los datos deseados, pero con el material de referencia de Microsoft se podria conseguir facilmente:
 
