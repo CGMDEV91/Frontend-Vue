@@ -58,10 +58,10 @@ _Siendo un front sencillo, se ha hecho responsive con la librería de Bootstrap,
 
 # Respuestas de la Prueba Técnica ✒️
 
-**1.2	NOTIFICAR QUE SE HA CREADO UNA INCIDENCIA A UN EMPLEADO
+## 1.2	NOTIFICAR QUE SE HA CREADO UNA INCIDENCIA A UN EMPLEADO
 - En este caso se ha creado vagamente una alerta en el Frontend avisando al usuario y redireccionando, pero con tiempo, lo correcto seria usar **un bus de eventos** de manera que dispare un evento que pueda ser capturado desde cualquier parte de la aplicación para ser tratado.
 
-**1.3	BASE DE DATOS
+## 1.3	BASE DE DATOS
 
 SELECT emp.Nombre,in.Tipo,in.Fecha,in.idEmpleado as Responsable, in.Estado
 FROM EMPRESA emp,
@@ -72,6 +72,7 @@ AND in.idEmpleado = e.Id
 AND in.Fecha BETWEEN '01-05-2021' AND '31-05-2021';
 
 - No he tenido tiempo de implementar una función que obtenga un Excel de los datos deseados, pero con el material de referencia de Microsoft se podria conseguir facilmente:
+
 **https://docs.microsoft.com/es-es/previous-versions/office/troubleshoot/office-developer/automate-excel-using-visual-c-fill-data**
 
 
