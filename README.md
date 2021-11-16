@@ -16,12 +16,16 @@ Este proyecto está dividido en 3 partes:
 
 _Es importante recordar que sin una base de datos en un docker y cambiando la cadena de conexión en el **appsettings.json** no se va a poder ver en pleno funcionamiento el frontend, así como los valores devueltos por el Backend._
 
+# Iniciando la API 🛠️
+
 Una vez clonado el repositorio, accedemos a la carpeta que contiene el proyecto de Visual Studio para poner la API en funcionamiento.
 Como inicio arrancará con el endpoint: **http://localhost:32110/api/Empleado**
 
 ![image](https://user-images.githubusercontent.com/94412083/142030732-53e4deab-088e-4860-8456-3afea430df2b.png)
 
 **En caso de tener datos y una base de datos con conexión se mostraría como se observa en la foto anterior la respuesta incial con los datos de los Empleados de la base de datos**
+
+# Iniciando el Cliente 🛠️
 
 Una vez Arrancado,nos situamos  dentro del proyecto de Fontend en Vue.js y desde consola ejecutaremos **npm intall** para descargar todos los paquetes de node necesarios.
 Seguidamente podremos arrancar el proyecto usando: **npm run serve**
