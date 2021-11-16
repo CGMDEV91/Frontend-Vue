@@ -23,3 +23,8 @@ Como inicio arrancará con el endpoint: **http://localhost:32110/api/Empleado**
 
 **En caso de tener datos y una base de datos con conexión se mostraría como se observa en la foto anterior la respuesta incial con los datos de los Empleados de la base de datos**
 
+Una vez Arrancado,nos situamos  dentro del proyecto de Fontend en Vue.js y desde consola ejecutaremos **npm intall** para descargar todos los paquetes de node necesarios.
+Seguidamente podremos arrancar el proyecto usando: **npm run serve**
+Tras cargar todos los módulos de node será accesible desde: **http://localhost:8080/**
+
+
