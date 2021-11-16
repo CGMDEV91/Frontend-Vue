@@ -25,16 +25,18 @@
                 <td>{{formatFecha(dato.Fecha)}} </td>
                 <td>
                   <button @click="editar" class="btn btn-primary mb-2 mb-md-0">Editar</button>
-                  <button @click="eliminarIncidencia(dato.Id)" class="btn btn-danger ml-3">Eliminar</button>
+                  <button @click="eliminarIncidencia(dato.Id)" class="btn btn-danger ml-3 ">Eliminar</button>
                 </td>
                 </tr>
             </tbody>
             </table>
           </div>
         </div>
-          <div v-if="visible" class="alert alert-danger" role="alert">
+        <div class="row justify-content-center mt-2">
+          <div v-if="visible" class="alert alert-danger col-6" role="alert">
             Incidencia Eliminada!
           </div>
+        </div>
     </div>
   </div>
 </template>
