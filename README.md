@@ -52,8 +52,7 @@ _Siendo un front sencillo, se ha hecho responsive con la librería de Bootstrap,
 **Vistas de Incidencias ( acceso a detalle de cada incidencia /tarea, la navegación es similar en ambos tipos)**
  ![image](https://user-images.githubusercontent.com/94412083/142032612-86d27604-8dae-4800-8ad5-b7e14c6b9ee7.png)
  ![image](https://user-images.githubusercontent.com/94412083/142032942-369e34ac-7472-439a-92b4-fc120137644c.png)
- ![image](https://user-images.githubusercontent.com/94412083/142033358-69b95623-229d-429b-b1ce-d1c152c0f127.png)
-
+ ![image](https://user-images.githubusercontent.com/94412083/142079077-349515b3-cb3b-4c65-b5b2-22e6072545c3.png)
 **Se han creado alertas con redirecciones avisando de cada inserción o eliminación de elementos**
 
 # Respuestas de la Prueba Técnica ✒️
