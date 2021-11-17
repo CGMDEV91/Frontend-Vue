@@ -64,7 +64,7 @@ _Siendo un front sencillo, se ha hecho responsive con la librería de Bootstrap,
 
 -Select para obtener el Empledao con mayor numero Incidencias de Mayo de 2021
 
-![Screenshot_1](https://user-images.githubusercontent.com/94412083/142173019-95fd8709-4595-4bb0-8152-b0b7b553e918.png)
+![image](https://user-images.githubusercontent.com/94412083/142173326-441ee282-abe1-430c-9e9d-c42d52fc6ed7.png)
 
 
 - He usado el diseñador de Diagramas de SQL:
